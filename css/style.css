@@ -18,23 +18,6 @@ DEBUG
 */
 
 
-.debug .header-bottom {
-    background-color: #00007a;
-    height: 500px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.debug .container-header {
-    width: 800px;
-    background-color: #e268ed;
-    border: 2px dashed black;
-    height: 400px;
-
-}
-
 .debug .container, .container-reverse{
     width: 800px;
     border: 2px dashed black;
@@ -187,40 +170,22 @@ body {
 a {
     text-decoration: none;
 }
-/* 
-*********
-HEADER
-*********
-*/
 
-.debug .header-top {
-    background-color: #1b48e7;
-    height: 70px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-
-.menu {
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5px;
-
+.menu a.button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
 }
 
 .button {
-    border-radius: 20px;
-    padding: 10px 20px; 
+    border-radius: 30px;
+    padding: 15px 25px; 
     display: inline-block;
     transition: box-shadow 0.3s ease;
 }
+
+
 
 .button:hover {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
@@ -232,9 +197,64 @@ HEADER
 }
 
 .button.black-button {
-    background-color: black;
+    background-color: #23272a;
     color: white;
 }
+
+.header-bottom a.button.black-button:hover {
+    background-color: #393939;
+}
+
+
+
+/* 
+*********
+TESTI
+*********
+*/
+
+h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.container-header p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+/* 
+*********
+HEADER
+*********
+*/
+
+.header-top {
+    background-color:#2a5ee8;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
 .link-sito a {
     color:white;
 }
@@ -243,14 +263,46 @@ HEADER
     text-decoration: underline;
 }
 
+.menu .link-sito a {
+    margin-right: 40px;
+}
+
 header {
     display: flex;
     flex-direction: column;
 }
 
-.menu .link-sito a {
-    margin-right: 40px;
+.header-bottom {
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.container-header {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-bottom a.button.white-button:hover {
+    color:#2a5ee8;
+}
+
+.container-header a.button {
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
 
 /* 
 *********
