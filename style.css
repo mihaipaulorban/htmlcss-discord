@@ -191,7 +191,7 @@ header {
 }
 
 .header-bottom {
-    background-image: url(/img/jumbo.png);
+    background-image: url(img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -244,9 +244,9 @@ MAIN
 
 
 .sezione .container div:first-child {
-    background-image: url(/img/item1.svg);
+    background-image: url(img/item1.svg);
     background-repeat: no-repeat;
-    background-size: contain 50%;
+    background-size: contain 30%;
     width: 60%;
     
 }
